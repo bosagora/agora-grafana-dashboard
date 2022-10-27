@@ -42,7 +42,7 @@ scrape_configs:
   - job_name: 'validator'
     static_configs:
       - targets: ['localhost:8081']
-  - job_name: 'beacon node'
+  - job_name: 'agora node'
     static_configs:
       - targets: ['localhost:8080']
   - job_name: 'slasher'
